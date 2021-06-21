@@ -47,4 +47,4 @@ python brew_poison.py --ablation 0.01 --budget 0.0001 --eps 25 --net ResNet50 --
 ```
 
 ## Results
-The results displayed by the grep command are aggregated in the [excel sheet](https://github.com/sunan93/DLCV-Course-Project/tree/master/Results) and averaged over multiple trials to get the accuracy numbers. Some of the log files are uploaded [here](https://github.com/sunan93/DLCV-Course-Project/tree/master/Results). The numbers might change a little(by around 10%) across runs but the trends remain the same as the same seeds are used across multiple runs.
+The results displayed by the grep command are aggregated in the [excel sheet](https://github.com/sunan93/DLCV-Course-Project/tree/master/Results) and averaged over multiple trials to get the accuracy numbers. Some of the log files are uploaded [here](https://github.com/sunan93/DLCV-Course-Project/tree/master/Results). The numbers might vary a little but the trends remain the same across multiple runs.
