@@ -37,21 +37,22 @@ for i in ids:
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
     """
-    """
+    
     print("Multi layer Code")
     # Multi layer code 
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, False, False, True)
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
-    """
     
-    """
+    
+    
     print("CE loss Code")
     # CE loss code
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, True, False, False, False)
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
     
+    """
     print("CE loss Code")
     # CE loss code
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, True, False, False, False)
@@ -60,13 +61,13 @@ for i in ids:
     """
 
  
-    """
+    
     # MAX loss code
     print("Max Loss Code")
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, True, False, False)
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
-
+    """
     print("Max Loss Code")
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, True, False, False)
     print(cmd, cmd.split())
@@ -74,13 +75,13 @@ for i in ids:
     """
 
 
-    """
+    
     # Feature reg code 
     print("Feature Reg loss Code")
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, False, True, False)
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
-    
+    """
     # Feature reg code 
     print("Feature Reg loss Code")
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, False, True, False)

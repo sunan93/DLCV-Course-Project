@@ -20,21 +20,22 @@ for i in ids:
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
     
-    
+    """
     print("Original Code")
     # original code 
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, False, False, False)
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
-    
+    """
 
-    """ 
+    """
     print("Multi layer Code")
     # Multi layer code 
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, False, False, True)
     print(cmd, cmd.split())
     subprocess.run(cmd.split())
-    
+    """
+    """
     print("Multi layer Code")
     # Multi layer code 
     cmd = 'bash launch/attack-end2end-12.sh {} {} {} {} {} {} {} {} {}'.format(gpu, mode, i, net_repeat, target_num, False, False, False, True)
