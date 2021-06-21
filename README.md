@@ -41,5 +41,10 @@ To run the "BP-MT+nearest" variant, use the option --nearest in the file launch/
 
 To run the antidote optimization code, run the same command from the BP-MT-Antidote-opt folder.
 
+To run Witches' Brew attack on a dataset of 500 images trained on ResNet50, and test on MobileNetV2, 
+```
+python brew_poison.py --ablation 0.01 --budget 0.0001 --eps 25 --net ResNet50 --restarts 1 --model_to_load MobileNetV2
+```
+
 ## Results
-The results displayed by the grep command are aggregated in the [excel sheet](https://github.com/sunan93/DLCV-Course-Project/tree/master/Results) and averaged over multiple trials to get the accuracy numbers. The numbers might change a little(by around 10%) across runs but the trends remain the same as the same seeds are used across multiple runs.
+The results displayed by the grep command are aggregated in the [excel sheet](https://github.com/sunan93/DLCV-Course-Project/tree/master/Results) and averaged over multiple trials to get the accuracy numbers. Some of the log files are uploaded [here](https://github.com/sunan93/DLCV-Course-Project/tree/master/Results). The numbers might change a little(by around 10%) across runs but the trends remain the same as the same seeds are used across multiple runs.
